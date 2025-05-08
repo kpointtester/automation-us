@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KPOINT-exp</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .myTable {
+            background-color: #eee;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .myTable th {
+            background-color: #006069;
+            color: white;
+            width: 10%;
+        }
+        .myTable td, .myTable th {
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        .header {
+            padding: 23px;
+            background: #006069;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .tailer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #006069;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .tailer a {
+            color: #FF8C00;
+            text-decoration: none;
+            padding: 0 5px;
+            transition: all 0.3s ease;
+        }
+        .tailer a:hover {
+            color: #006069;
+            background-color: white;
+            padding: 2px 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://vega-testing.kpoint.com/media/data.us-southeast-1.kpoint/vega-testing.kpoint.com/vega-testing.kpoint.com/logos/v2000/logo.jpg" alt="KPOINT">
+        <h1>Hey, It's KPOINT Experience Page</h1>
+    </div>
+
+    <div class="content">
+        <p>Click on any following link and enjoy experience</p>
+        <table class="myTable">
+            <tr>
+                <th>Sr.</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Vega standard embedding</td>
+                <td><a id="vega_standard" href="https://kpointtester.github.io/automation-us/vegaStandEmbed.html">vega_standard</a></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Vega legacy embedding</td>
+                <td><a id="vega_legacy" href="https://kpointtester.github.io/automation-us/vegaLegacyEmbed.html">vega_legacy</a></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Orca standard embedding</td>
+                <td><a id="orca_standard" href="https://kpointtester.github.io/automation-us/orcaStandEmbed.html">orca_standard</a></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Orca Advance embedding</td>
+                <td><a id="orca_advanced" href="https://kpointtester.github.io/automation-us/orcaAdvEmbed.html">orca_advanced</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="tailer">
+        <p>Any help/information please connect to 
+            <a href="https://wa.me/+918570961005?text=Hello%20Pankaj," target="_blank">WHATSAPP</a>
+            or 
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=pankaj.joshi@KPOINT.com&Subject=Need%20Help,&body=HI%20Pankaj," target="_blank">EMAIL</a>
+        </p>
+    </div>
+</body>
+</html>
